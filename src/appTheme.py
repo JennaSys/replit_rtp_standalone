@@ -1,4 +1,4 @@
-from pymui import createMuiTheme, colors, makeStyles, styled, muiButton
+from pymui import createMuiTheme, colors, makeStyles, styled, muiButton, Button
 from pyreact import component
 
 theme = createMuiTheme({
@@ -52,3 +52,4 @@ def ListButton(props):
     new_props = {'style': {'minWidth': '6rem', 'margin': '0 0.5rem 0 0'}}
     new_props.update(props)
     return Button(new_props)
+
