@@ -2,12 +2,12 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_standalone)](https://repl.it/github/JennaSys/replit_rtp_standalone)
 
-To generate the development JavaScript bundle, run `. ./build-dev.sh` in the shell.
+To generate the development JavaScript bundle, run `. ./build.sh` in the shell (note the leading dot!).
 
 Running the repl will then serve up the generated JavaScript files.
 
 ### Setup
-The first time you run the `build-dev.sh` script, it will check for installed dependencies.  If not found, it will do the following:  
+The first time you run the `build.sh` shell script, it will check for installed dependencies.  If not found, it will do the following:  
 - Install Python 3.9 (required by Transcrypt)
 - Install Python dependencies
 - Install JavaScript dependencies
