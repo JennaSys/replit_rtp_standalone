@@ -1,7 +1,6 @@
 run = "python main.py"
 language = "python3"
 entrypoint = "src/app.py"
-onBoot = "sh build-dev.sh"
 
 [packager]
 language = "python-python3-poetry"
