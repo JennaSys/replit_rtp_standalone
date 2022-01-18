@@ -1,5 +1,7 @@
 # React to Python: Standalone example
 
+[![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_standalone)](https://repl.it/github/JennaSys/replit_rtp_standalone)
+
 To generate the development JavaScript bundle, run `. ./build-dev.sh` in the shell.  After that, you can also run `npm run bul` in the shell to generate the production JavaScript bundle.
 
 Running the repl will serve up the pre-generated JavaScript files.
