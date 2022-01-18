@@ -4,7 +4,7 @@ retVal=$?
 if [ $retVal -ne 0 ]
 then
     echo "Running initial setup..." 
-    source ./setup.sh
+    . ./setup.sh
     retVal=$?
     if [ $retVal -ne 0 ]
     then
