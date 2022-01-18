@@ -1,12 +1,14 @@
 # React to Python: Standalone example
 
+To generate the development JavaScript bundle, run `. ./build-dev.sh` in the shell.  After that, you can also run `npm run bul` in the shell to generate the production JavaScript bundle.
+
+Running the repl will serve up the pre-generated JavaScript files.
+
 ### Setup
-The first time you run the repl, it will perform an initial setup routine that:  
-- Creates a Python virtual environment
-- Installs Python dependencies
-- Installs JavaScript dependencies
+The first time you run the `build-dev.sh` script, it will check for installed dependencies.  If not found, it will do the following:  
+- Install Python 3.9 (required by Transcrypt)
+- Install Python dependencies
+- Install JavaScript dependencies
 
-Once that is done, it will transpile and bundle the generated JavaScript files and then launch a proxy server. The `dev-server.js` file can be modified as required to suit your needs.
-
-If you've forked the repl and the build is crashing saying that the transcrypt module can't be found, delete the `venv/` folder and try running the repl again.  This will force the Python dependencies to be reinstalled.
+Once that is done, it will transpile and bundle the generated JavaScript files and then launch a development server. The development server can be stopped with `Ctrl-c`.
 
