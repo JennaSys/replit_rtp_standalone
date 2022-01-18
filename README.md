@@ -1,6 +1,6 @@
 # React to Python: Standalone example
 
-## A basic React/Material-UI example from chapter 18 of the React to Python book.
+### A basic React/Material-UI example from chapter 18 of the React to Python book.
 
 Click the button below to clone and run it on Replit (A free [Replit](https://replit.com/) account is required):
 
