@@ -4,7 +4,7 @@
 
 To generate the development JavaScript bundle, run `. ./build.sh` in the shell (note the leading dot!).
 
-Running the repl will then serve up the generated JavaScript files.
+Running the repl afterwards will then serve up the generated JavaScript files with Flask.
 
 ### Setup
 The first time you run the `build.sh` shell script, it will check for installed dependencies.  If not found, it will do the following:  
