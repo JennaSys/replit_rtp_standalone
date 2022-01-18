@@ -14,3 +14,5 @@ The first time you run the `build-dev.sh` script, it will check for installed de
 
 Once that is done, it will transpile and bundle the generated JavaScript files and then launch a development server. The development server can be stopped with `Ctrl-c`.
 
+After the development server is stopped, you can run the repl which will start up Flask to serve up the generated files.
+
