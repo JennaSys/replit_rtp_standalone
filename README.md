@@ -2,9 +2,9 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_standalone)](https://repl.it/github/JennaSys/replit_rtp_standalone)
 
-To generate the development JavaScript bundle, run `. ./build-dev.sh` in the shell.  After that, you can also run `npm run build` in the shell to generate the production JavaScript bundle.
+To generate the development JavaScript bundle, run `. ./build-dev.sh` in the shell.
 
-Running the repl will serve up the pre-generated JavaScript files.
+Running the repl will then serve up the generated JavaScript files.
 
 ### Setup
 The first time you run the `build-dev.sh` script, it will check for installed dependencies.  If not found, it will do the following:  
