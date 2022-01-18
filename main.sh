@@ -12,13 +12,8 @@ then
     fi
 fi
 
-# echo
-# echo "Building application..."
-# python3.9 -m transcrypt 
-# npm start
+echo
+echo "Building application..."
+npm start
 # npm run build
-
-# echo
-# echo "Starting dev server"
-# npm run dev
 
