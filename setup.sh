@@ -1,8 +1,4 @@
 echo
-echo "Un-Git..."
-rm -rf .git
-
-echo
 echo "Installing Python 3.9..."
 install-pkg python3.9
 
