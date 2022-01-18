@@ -1,5 +1,7 @@
-# Check to make sure virtual environment has been set up
-if [ ! -d "./venv" ]
+echo "Checking Python version..."
+python3.9 --version
+retVal=$?
+if [ $retVal -ne 0 ]
 then
     echo "Running initial setup..." 
     source ./setup.sh
@@ -10,7 +12,13 @@ then
     fi
 fi
 
+# echo
+# echo "Building application..."
+# python3.9 -m transcrypt 
+# npm start
+# npm run build
 
-# Run application
-source ./venv/bin/activate
-npm run dev
+# echo
+# echo "Starting dev server"
+# npm run dev
+
